@@ -1,0 +1,24 @@
+INSERT INTO axdirectsql (axdirectsqlid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, sqlname, ddldatatype, sqltext, paramcal, sqlparams, accessstring, groupname, sqlsrc, sqlsrccnd, sqlquerycols, adsdesc, encryptedflds, cachedata, cacheinterval, smartlistcnd, pagination, applydimensions) VALUES(1546880000000, 'F', 0, NULL, 'admin', '2026-04-21', 'admin', '2026-04-21', NULL, 1, 1, NULL, NULL, NULL, 'axi_ai_rbac_config', NULL, 'select axusergroups,axusername,binname,provider,providerkey from axiai_rbac_config order by modifiedon desc', NULL, NULL, 'ALL', NULL, 'Internal', 1, 'axusergroups,axusername,binname,provider,providerkey', NULL, NULL, 'F', '6 Hr', NULL, 'F', 'F');
+
+INSERT INTO axdirectsql (axdirectsqlid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, sqlname, ddldatatype, sqltext, paramcal, sqlparams, accessstring, groupname, sqlsrc, sqlsrccnd, sqlquerycols, adsdesc, encryptedflds, cachedata, cacheinterval, smartlistcnd, pagination, applydimensions) VALUES(1546990000001, 'F', 0, NULL, 'admin', '2026-04-21', 'admin', '2026-04-21', NULL, 1, 1, NULL, NULL, NULL, 'axi_ai_usergroups', NULL, 'select distinct users_group_name from axpdef_usergroups a 
+
+join axpdef_peg_usergroups b on a.users_group_name = b.usergroupname 
+
+order by 1', NULL, NULL, 'ALL', NULL, 'Internal', 1, 'users_group_name', NULL, NULL, 'F', '6 Hr', NULL, 'F', 'F');
+
+INSERT INTO axdirectsql (axdirectsqlid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, sqlname, ddldatatype, sqltext, paramcal, sqlparams, accessstring, groupname, sqlsrc, sqlsrccnd, sqlquerycols, adsdesc, encryptedflds, cachedata, cacheinterval, smartlistcnd, pagination, applydimensions) VALUES(1547010000000, 'F', 0, NULL, 'admin', '2026-04-24', 'admin', '2026-04-21', NULL, 1, 1, NULL, NULL, NULL, 'axi_ai_username_usergroups', NULL, 'select username from axpdef_peg_usergroups 
+
+where usergroupname in(select unnest(string_to_array(:pusergroup,'','')))
+
+and active=''T'' 
+
+order by 1 ', 'pusergroup', 'pusergroup~Character~', 'ALL', NULL, 'Internal', 1, 'username', NULL, NULL, 'F', '6 Hr', NULL, 'F', 'F');
+
+INSERT INTO axdirectsql (axdirectsqlid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, sqlname, ddldatatype, sqltext, paramcal, sqlparams, accessstring, groupname, sqlsrc, sqlsrccnd, sqlquerycols, adsdesc, encryptedflds, cachedata, cacheinterval, smartlistcnd, pagination, applydimensions) VALUES(1542110000003, 'F', 0, NULL, 'admin', '2026-04-15', 'admin', '2026-04-15', NULL, 1, 1, NULL, NULL, NULL, 'axi_ai_getadslist', NULL, 'select * from fn_axi_getstructures_meta(:pusername,:puserrole,''All'',''app'',''ads'')
+
+where viewallowed=''T''', 'pusername,puserrole', 'pusername~Character~,puserrole~Character~', 'ALL', NULL, 'Internal', 1, 'displaydata,caption,name,stype,dimension,permission,createallowed,viewallowed,keyfield,primarytable', 'This ADS is used only for AXI Insights to list ADS', NULL, 'F', '6 Hr', NULL, 'T', 'F');
+
+INSERT INTO axdirectsql (axdirectsqlid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, sqlname, ddldatatype, sqltext, paramcal, sqlparams, accessstring, groupname, sqlsrc, sqlsrccnd, sqlquerycols, adsdesc, encryptedflds, cachedata, cacheinterval, smartlistcnd, pagination, applydimensions) VALUES(1544330000000, 'F', 0, NULL, 'admin', '2026-04-15', 'admin', '2026-04-15', NULL, 1, 1, NULL, NULL, NULL, 'axi_ai_bin', NULL, 'select  datasource_details, document_details, bin_name, bin_id, axai_datasources_detailsid AS recordid from axai_datasources_details', NULL, NULL, NULL, NULL, 'Internal', 1, 'datasource_details,document_details,bin_name,bin_id,recordid ', 'for retrieving stored bins from the tstruct given above.', NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO axdirectsql (axdirectsqlid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, sqlname, ddldatatype, sqltext, paramcal, sqlparams, accessstring, groupname, sqlsrc, sqlsrccnd, sqlquerycols, adsdesc, encryptedflds, cachedata, cacheinterval, smartlistcnd, pagination, applydimensions) VALUES(1544440000000, 'F', 0, NULL, 'admin', '2026-04-15', 'admin', '2026-04-15', NULL, 1, 1, NULL, NULL, NULL, 'axi_ai_keys', NULL, 'select api_key, is_active, model, provider from axiai_apikey_dtl', NULL, NULL, NULL, NULL, 'Internal', 1, 'api_key, is_active, model, provider', 'for retrieving the stored api key from the db for connection from the above tstruct', NULL, NULL, NULL, NULL, NULL, NULL);
+ 
