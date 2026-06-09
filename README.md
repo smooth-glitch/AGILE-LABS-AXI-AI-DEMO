@@ -1,18 +1,18 @@
 # 🤖 AXI AI – Analytics Chat Dashboard
 
-A modern, responsive **AI analytics dashboard** built with **HTML**, **CSS**, and **Vanilla JavaScript**, designed for the **Axpert low-code platform**. [1][2] It combines conversational AI, rich charts, file-based data onboarding, and export tools into a polished enterprise-style chat experience. [3][4]
+A modern, responsive **AI analytics dashboard** built with **HTML**, **CSS**, and **Vanilla JavaScript**, designed for the **Axpert low-code platform**. It combines conversational AI, rich charts, file-based data onboarding, and export tools into a polished enterprise-style chat experience.
 
 ***
 
 ## ✨ Highlights
 
-- 💬 AI chat interface with **streaming responses**, typewriter rendering, and contextual follow-up suggestion chips. [4]
-- 📊 Built-in charting and analytics using **Chart.js** and **Highcharts** for data-rich responses. [3]
-- 📁 **Data Bin** workflow for drag-and-drop uploads with support for **CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON** files. [3]
-- 🧠 Smart table conversion that turns AI-generated tabular responses into structured list views inside Axpert. [4][1]
-- 📄 Export actions for **PDF reports** and **Markdown copy/export** directly from AI-generated responses. [4]
-- 🎨 Clean responsive interface with sidebar navigation, polished message bubbles, design tokens, toasts, modals, and mobile support. [3]
-- 🔒 Enterprise-friendly iframe safeguards, safe link handling, local chat persistence, and resilient DOM update logic. [4]
+- 💬 AI chat interface with **streaming responses**, typewriter rendering, and contextual follow-up suggestion chips.
+- 📊 Built-in charting and analytics using **Chart.js** and **Highcharts** for data-rich responses.
+- 📁 **Data Bin** workflow for drag-and-drop uploads with support for **CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON** files. 
+- 🧠 Smart table conversion that turns AI-generated tabular responses into structured list views inside Axpert.
+- 📄 Export actions for **PDF reports** and **Markdown copy/export** directly from AI-generated responses.
+- 🎨 Clean responsive interface with sidebar navigation, polished message bubbles, design tokens, toasts, modals, and mobile support.
+- 🔒 Enterprise-friendly iframe safeguards, safe link handling, local chat persistence, and resilient DOM update logic.
 
 ***
 
@@ -51,7 +51,7 @@ cd <your-repo>
 
 2. **Configure platform/API access**
 
-Create or update the runtime config your Axpert environment expects for provider keys, app endpoints, and platform integration values. The app reads runtime configuration for AI provider selection and embedded execution inside Axpert. [4][3]
+Create or update the runtime config your Axpert environment expects for provider keys, app endpoints, and platform integration values. The app reads runtime configuration for AI provider selection and embedded execution inside Axpert.
 
 ```js
 // Example placeholder config
@@ -77,24 +77,24 @@ python -m http.server 5500
 ## 🎛️ Features
 
 ### 💬 AI Chat Experience
-- Streaming AI responses with a typewriter effect for a more natural assistant feel. [4]
-- Suggested follow-up chips generated from the latest response and current data context. [4]
-- Conversation history persistence with local storage and assistant/user message separation. [4]
+- Streaming AI responses with a typewriter effect for a more natural assistant feel. 
+- Suggested follow-up chips generated from the latest response and current data context. 
+- Conversation history persistence with local storage and assistant/user message separation. 
 
 ### 📁 Data Bin Workflow
-- Attach structured and document-based context to the chat using drag-and-drop uploads. [3]
-- Supports **CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON** with validation, upload status, and limits. [3]
-- Multi-step Data Bin flow with optional datasource selection, file management, naming, and save logic. [3]
+- Attach structured and document-based context to the chat using drag-and-drop uploads. 
+- Supports **CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON** with validation, upload status, and limits. 
+- Multi-step Data Bin flow with optional datasource selection, file management, naming, and save logic. 
 
 ### 📊 Visual Analytics
-- Render charts directly inside responses using **Chart.js** and **Highcharts**. [3]
-- Convert AI responses into structured smart lists for tabular exploration in Axpert. [4][1]
-- Display full HTML dashboard output inside embedded preview cards when the response returns a full HTML document. [4]
+- Render charts directly inside responses using **Chart.js** and **Highcharts**. 
+- Convert AI responses into structured smart lists for tabular exploration in Axpert. 
+- Display full HTML dashboard output inside embedded preview cards when the response returns a full HTML document. 
 
 ### 📄 Export & Productivity
-- Export AI responses as polished PDF reports using **jsPDF** and **html2canvas**. [4]
-- Copy Markdown output directly from generated responses for reuse in docs or reports. [4]
-- Guard outbound links inside embedded iframes to avoid breaking the host shell experience. [4]
+- Export AI responses as polished PDF reports using **jsPDF** and **html2canvas**.
+- Copy Markdown output directly from generated responses for reuse in docs or reports. 
+- Guard outbound links inside embedded iframes to avoid breaking the host shell experience. 
 
 ***
 
@@ -112,11 +112,11 @@ python -m http.server 5500
 ## 🛠️ Customization
 
 - **UI & branding**
-  - Update colors, typography, shadows, and spacing through the CSS variables and component styles in `dashboard.html`. [3]
+  - Update colors, typography, shadows, and spacing through the CSS variables and component styles in `dashboard.html`. 
 - **Chat behavior**
-  - Adjust message streaming, suggestion generation, export actions, and smart list behavior in `script.js`. [4]
+  - Adjust message streaming, suggestion generation, export actions, and smart list behavior in `script.js`. 
 - **Platform integration**
-  - Replace or extend the Axpert-specific runtime hooks, datasource flows, and provider configuration for your own environment. [4][3]
+  - Replace or extend the Axpert-specific runtime hooks, datasource flows, and provider configuration for your own environment. 
 
 ***
 
