@@ -2,7 +2,7 @@
 
 > A conversational AI analytics assistant built for the **Axpert ERP platform** at **Agile Labs**.
 > 
-> 🔗 **[View Live Demo →](https://agile.axi-global.com/aspx/signin.aspx)** *(requires valid Axpert credentials)*
+> 🔗 **[View Live Demo →](https://agileqa.agilecloud.biz/qaaxpert11.4base/aspx/sess.aspx)** *(requires valid Axpert credentials)*
 
 ***
 
@@ -77,7 +77,7 @@ It was designed to make data analysis accessible to non-technical business users
 
 The app is live inside the Agile Labs Axpert instance.
 
-👉 **[https://agile.axi-global.com/aspx/signin.aspx](https://agile.axi-global.com/aspx/signin.aspx)**
+👉 **[https://agileqa.agilecloud.biz/qaaxpert11.4base/aspx/sess.aspx](https://agileqa.agilecloud.biz/qaaxpert11.4base/aspx/sess.aspx)**
 
 Sign in with valid Axpert credentials to access AXI AI from the application menu.
 
