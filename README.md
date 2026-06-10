@@ -9,63 +9,44 @@
 ## 📸 Screenshots
 
 ### Home Screen
-
-*Clean welcome screen with the AI composer, AI provider selector, Data Bin picker, Templates, and prompt editor all accessible from the bottom control bar.*
-
-***
+![Home Page](./screenshots/home-page.jpg)
+*Clean welcome screen...*
 
 ### AI Provider Selection
-
-*Switch between connected AI providers — OpenAI, Google Gemini, and OpenRouter — directly from the chat interface.*
-
-***
+![Provider Dropdown](./screenshots/provider-dropdown.jpg)
+*Switch between connected AI providers...*
 
 ### Chat Response & Actions
-
-*AI responses include record count chips, quick action buttons (Visualize as chart, Show trend over time), export tools, and contextual follow-up suggestion chips.*
-
-***
+![Response Features](./screenshots/response-features.jpg)
+*AI responses include record count chips...*
 
 ### Prompt Templates
-
-*Built-in analysis templates (Executive Summary, Anomaly Detection, Correlation Analysis, Data Quality Report) plus user-saved custom templates for one-click prompting.*
-
-***
+![Prompt Templates](./screenshots/prompt-templates.jpg)
+*Built-in analysis templates...*
 
 ### Edit System Prompt
-
-*Fully customizable system prompt — tune how AXI thinks, responds, and what rules it follows. Saved per user.*
-
-***
+![Edit Prompt](./screenshots/edit-prompt-dropdown.jpg)
+*Fully customizable system prompt...*
 
 ### Data Bin — Add Datasource
-
-*Step 1 of the Data Bin flow: search and select one or more live Axpert datasources to include as AI context.*
-
-***
+![Datasource Page](./screenshots/datasource-page.jpg)
+*Step 1 of the Data Bin flow...*
 
 ### Data Bin — File Upload
-
-*Step 2: drag-and-drop file uploads alongside datasources. Supports CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON.*
-
-***
+![File Upload](./screenshots/file-upload-page.jpg)
+*Step 2: drag-and-drop file uploads...*
 
 ### Data Bin — Dropdown
-
-*Quickly switch between saved Data Bins from the composer bar. Each bin shows its datasource and file count.*
-
-***
+![Data Bin Dropdown](./screenshots/databin-dropdown.jpg)
+*Quickly switch between saved Data Bins...*
 
 ### Data Bin — Control Center (Admin)
-
-*Admin view for managing all saved Data Bins — create, edit, delete, and assign bins to user groups.*
-
-***
+![Data Bin Control Center](./screenshots/databin-control-center.jpg)
+*Admin view for managing all saved Data Bins...*
 
 ### Access Assignments (Admin)
-
-*Assign a Data Bin and AI provider key to a specific user group — so users in that group get pre-configured access without needing to set up their own keys.*
-
+![Assignments](./screenshots/assignments.jpg)
+*Assign a Data Bin and AI provider key...*
 ***
 
 ## 📄 Sample PDF Export
