@@ -1,35 +1,94 @@
 # AXI AI – Analytics Chat Dashboard
 
 > A conversational AI analytics assistant built for the **Axpert ERP platform** at **Agile Labs**.
-> 
-> 🔗 **[View Live Demo →](https://agile.axi-global.com/aspx/signin.aspx)** *(requires valid Axpert credentials)*
+>
+> 🔗 **[View Live Demo →](https://agileqa.agilecloud.biz/qaaxpert11.4base/aspx/mainnew.aspx)** *(requires valid Axpert credentials)*
 
 ***
 
 ## 📸 Screenshots
 
-> *(Add your screenshots here — drag and drop images into the repo)*
+### Home Screen
 
-| Chat Interface | Data Bin Upload | Chart Response |
-|---|---|---|
-|  |  |  |
+*Clean welcome screen with the AI composer, AI provider selector, Data Bin picker, Templates, and prompt editor all accessible from the bottom control bar.*
 
 ***
 
-## 💡 What is AXI AI?
+### AI Provider Selection
 
-AXI AI is an enterprise analytics chat assistant embedded inside the Axpert ERP platform. It lets users have natural conversations with their business data — asking questions, generating charts, and exporting insights — all without leaving their ERP workflow.
+*Switch between connected AI providers — OpenAI, Google Gemini, and OpenRouter — directly from the chat interface.*
 
-It was designed to make data analysis accessible to non-technical business users while giving power users a fast, flexible interface for deep data exploration.
+***
+
+### Chat Response & Actions
+
+*AI responses include record count chips, quick action buttons (Visualize as chart, Show trend over time), export tools, and contextual follow-up suggestion chips.*
+
+***
+
+### Prompt Templates
+
+*Built-in analysis templates (Executive Summary, Anomaly Detection, Correlation Analysis, Data Quality Report) plus user-saved custom templates for one-click prompting.*
+
+***
+
+### Edit System Prompt
+
+*Fully customizable system prompt — tune how AXI thinks, responds, and what rules it follows. Saved per user.*
+
+***
+
+### Data Bin — Add Datasource
+
+*Step 1 of the Data Bin flow: search and select one or more live Axpert datasources to include as AI context.*
+
+***
+
+### Data Bin — File Upload
+
+*Step 2: drag-and-drop file uploads alongside datasources. Supports CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON.*
+
+***
+
+### Data Bin — Dropdown
+
+*Quickly switch between saved Data Bins from the composer bar. Each bin shows its datasource and file count.*
+
+***
+
+### Data Bin — Control Center (Admin)
+
+*Admin view for managing all saved Data Bins — create, edit, delete, and assign bins to user groups.*
+
+***
+
+### Access Assignments (Admin)
+
+*Assign a Data Bin and AI provider key to a specific user group — so users in that group get pre-configured access without needing to set up their own keys.*
+
+***
+
+## 📄 Sample PDF Export
+
+AXI AI can export any response as a polished, multi-page **PDF report**. Below is an example of a report generated from a multi-datasource analysis across employee compensation, user accounts, task management, and performance metrics.
+
+> **What the report covers:**
+> - **ADS_canditate** — 11 employee records analysed for compensation patterns; identified that Employee ASI-0002 holds the highest total compensation of 59,000.
+> - **ads_test_perf2** — 1,140 user account records; found ~87.7% active users, with a notable portion lacking user group assignments.
+> - **AXI_AI_test** — 30 task/notification records; flagged a backlog of pending PEG Form approvals initiated by a single user.
+> - **barchart** — 7 performance metric records; EMP-0001 stands out with a value of 47 vs. a baseline of 1 across others.
+> - Includes **5 auto-generated charts** visualising the key findings across all datasets.
+
+*The full exported report (4 pages, with charts) is included in this repo as [`analytics-example.pdf`](./analytics-example.pdf).*
 
 ***
 
 ## ✨ Features
 
 ### 💬 Conversational AI
-- Natural language chat interface with **streaming responses** and a typewriter rendering effect
-- Contextual **follow-up suggestion chips** generated after each response
-- Multi-turn conversation memory across a session
+- Natural language chat interface with **streaming responses** and typewriter effect
+- Contextual **follow-up suggestion chips** auto-generated after every response
+- Multi-turn conversation memory within a session
 
 ### 📊 Visual Analytics
 - AI responses that include **live charts** rendered with Chart.js and Highcharts
@@ -39,18 +98,27 @@ It was designed to make data analysis accessible to non-technical business users
 ### 📁 Data Bin
 - Drag-and-drop file uploads to attach data context to your conversation
 - Supports **CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON**
-- Attach live datasources from your Axpert instance alongside uploaded files
-- Save and reload named Data Bins for repeated analysis workflows
+- Attach live **Axpert datasources** alongside uploaded files
+- Save and reload named Data Bins for repeatable analysis workflows
+
+### 🎛️ Prompt Templates
+- Built-in templates: Executive Summary, Anomaly Detection, Correlation Analysis, Data Quality Report, and more
+- Save and reuse your own custom templates
 
 ### 📄 Export Tools
-- Export any AI response as a **polished PDF report**
+- Export any AI response as a **polished multi-page PDF report** with branding and auto-generated charts
 - Copy responses as **Markdown** for use in documents or notes
 
+### 🔐 Admin & Access Control
+- Assign Data Bins and AI provider keys to specific **user groups**
+- Users in managed groups get pre-configured access without needing their own API keys
+- Full admin panel with Data Bin management and access assignment views
+
 ### 🎨 UI & Experience
-- Clean, responsive interface with sidebar navigation and mobile support
-- Polished message bubbles, toast notifications, and modal dialogs
+- Clean, responsive interface with a bottom control bar and sidebar navigation
 - Syntax-highlighted code blocks with one-click copy
 - Callout-style formatting for key insights, warnings, and tips in AI responses
+- Mobile-friendly layout
 
 ***
 
@@ -77,7 +145,7 @@ It was designed to make data analysis accessible to non-technical business users
 
 The app is live inside the Agile Labs Axpert instance.
 
-👉 **[https://agile.axi-global.com/aspx/signin.aspx](https://agile.axi-global.com/aspx/signin.aspx)**
+👉 **[https://agileqa.agilecloud.biz/qaaxpert11.4base/aspx/mainnew.aspx](https://agileqa.agilecloud.biz/qaaxpert11.4base/aspx/mainnew.aspx)**
 
 Sign in with valid Axpert credentials to access AXI AI from the application menu.
 
