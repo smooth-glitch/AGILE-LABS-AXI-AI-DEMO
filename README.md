@@ -10,7 +10,7 @@
 
 ### Home Screen
 
-![Home Page](./screenshots/home-page.jpg)
+![Home Page](./screenshots/home-page.png)
 
 *Clean welcome screen with the AI composer, AI provider selector, Data Bin picker, Templates, and prompt editor all accessible from the bottom control bar.*
 
@@ -18,7 +18,7 @@
 
 ### AI Provider Selection
 
-![Provider Dropdown](./screenshots/provider-dropdown.jpg)
+![Provider Dropdown](./screenshots/provider-dropdown.png)
 
 *Switch between connected AI providers — OpenAI, Google Gemini, and OpenRouter — directly from the chat interface.*
 
@@ -26,7 +26,7 @@
 
 ### Chat Response & Actions
 
-![Response Features](./screenshots/response-features.jpg)
+![Response Features](./screenshots/response-features.png)
 
 *AI responses include record count chips, quick action buttons (Visualize as chart, Show trend over time), export tools, and contextual follow-up suggestion chips.*
 
@@ -34,7 +34,7 @@
 
 ### Prompt Templates
 
-![Prompt Templates](./screenshots/prompt-templates.jpg)
+![Prompt Templates](./screenshots/prompt-templates.png)
 
 *Built-in analysis templates (Executive Summary, Anomaly Detection, Correlation Analysis, Data Quality Report) plus user-saved custom templates for one-click prompting.*
 
@@ -42,7 +42,7 @@
 
 ### Edit System Prompt
 
-![Edit Prompt](./screenshots/edit-prompt-dropdown.jpg)
+![Edit Prompt](./screenshots/edit-prompt-dropdown.png)
 
 *Fully customizable system prompt — tune how AXI thinks, responds, and what rules it follows. Saved per user.*
 
@@ -50,7 +50,7 @@
 
 ### Data Bin — Add Datasource
 
-![Datasource Page](./screenshots/datasource-page.jpg)
+![Datasource Page](./screenshots/datasource-page.png)
 
 *Step 1 of the Data Bin flow: search and select one or more live Axpert datasources to include as AI context.*
 
@@ -58,7 +58,7 @@
 
 ### Data Bin — File Upload
 
-![File Upload](./screenshots/file-upload-page.jpg)
+![File Upload](./screenshots/file-upload-page.png)
 
 *Step 2: drag-and-drop file uploads alongside datasources. Supports CSV, XLSX, XLS, TXT, PDF, DOCX, and JSON.*
 
@@ -66,7 +66,7 @@
 
 ### Data Bin — Dropdown
 
-![Data Bin Dropdown](./screenshots/databin-dropdown.jpg)
+![Data Bin Dropdown](./screenshots/databin-dropdown.png)
 
 *Quickly switch between saved Data Bins from the composer bar. Each bin shows its datasource and file count.*
 
@@ -74,7 +74,7 @@
 
 ### Data Bin — Control Center (Admin)
 
-![Data Bin Control Center](./screenshots/databin-control-center.jpg)
+![Data Bin Control Center](./screenshots/databin-control-center.png)
 
 *Admin view for managing all saved Data Bins — create, edit, delete, and assign bins to user groups.*
 
@@ -82,7 +82,7 @@
 
 ### Access Assignments (Admin)
 
-![Assignments](./screenshots/assignments.jpg)
+![Assignments](./screenshots/assignments.png)
 
 *Assign a Data Bin and AI provider key to a specific user group — so users in that group get pre-configured access without needing to set up their own keys.*
 
